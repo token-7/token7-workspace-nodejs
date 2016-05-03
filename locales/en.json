@@ -1,5 +1,6 @@
 {
-	"Sign In": "Sign In",
+    "App Name": "Workspace",
+    "Sign In": "Sign In",
 	"Sign in": "Sign in",
 	"Username or Email": "Username or Email",
 	"Password": "Password",
@@ -14,7 +15,7 @@
 	"I already have an account": "I already have an account",
 	"From Toronto with Love": "From Toronto with Love",
 	"Photos by %s and Friends": "Photos by %s and Friends",
-	"Fork me on GitHub": "Fork me on GitHub",
+	"Copyright": "Copyright © 2016 Token7",
 	"Edit Profile": "Edit Profile",
 	"Account Settings": "Account Settings",
 	"Notifications": "Notifications",

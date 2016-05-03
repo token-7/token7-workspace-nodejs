@@ -270,7 +270,7 @@ mongoose.connect(settings.database.uri, function(err) {
         if (err) {
             console.error(err);
         }
-
+/*
         else if (migrationRequired) {
             console.log('Database migration required'.red);
             console.log('Ensure you backup your database first.');
@@ -280,7 +280,7 @@ mongoose.connect(settings.database.uri, function(err) {
             );
 
             return process.exit();
-        }
+        }*/
 
         startApp();
     });

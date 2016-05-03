@@ -37,10 +37,10 @@ secrets:
   cookie: secretsauce
 
 files:
-  enable: false
+  enable: true
   provider: local
   maxFileSize: 100000000
-  restrictTypes: true
+  restrictTypes: false
   allowedTypes:
     - 'image/jpeg'
     - 'image/png'
@@ -71,7 +71,7 @@ giphy:
   apiKey: dc6zaTOxFJmzC
 
 rooms:
-  private: false
+  private: true
 
 i18n:
   locale: en

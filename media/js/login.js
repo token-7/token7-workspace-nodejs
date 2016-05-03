@@ -18,7 +18,7 @@
             switch(res.status) {
                 case 200:
                 case 201:
-                    swal('Success', res.responseJSON.message, 'success');
+                    //swal('Success', res.responseJSON.message, 'success');
                     $form.hasClass('lcb-login-box-login') && $('.sweet-alert').each(function() {
                         $(this).find('.confirm').hide();
                         $(this).find('p').css('margin-bottom', '20px');
@@ -34,22 +34,22 @@
                     $('.lcb-show-box:visible').click();
                     break;
                 case 400:
-                    swal('Woops',
+                    swal('Error',
                          res.responseJSON && res.responseJSON.message,
                          'error');
                     break;
                 case 401:
-                    swal('Woops.',
+                    swal('Error.',
                          'Your username or password is not correct',
                          'warning');
                     break;
                 case 403:
-                    swal('Woops.',
+                    swal('Error.',
                          'Your account is locked',
                          'warning');
                     break;
                 default:
-                    swal('Woops.',
+                    swal('Error.',
                          'A server error has occured',
                          'error');
                     break;

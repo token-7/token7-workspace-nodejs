@@ -16,12 +16,24 @@
 // The 'flex' shorthand
 // - applies to: flex items
 // <positive-number>, initial, auto, or none
-.flex(@columns: initial) {
+/*.flex(@columns: initial) {
   -webkit-flex: @columns;
      -moz-flex: @columns;
       -ms-flex: @columns;
           flex: @columns;
-}
+}*/
+
+/*.flex(@columns: initial) {
+    //-webkit-box-flex: @columns;
+    //-moz-box-flex: @columns;
+    //-ms-box-flex: @columns;
+    //-o-box-flex: @columns;
+    //box-flex: @columns;
+    //-webkit-flex: @columns;
+    //-moz-flex: @columns;
+    //-ms-flex: @columns;
+    //flex: @columns;
+}*/
 
 // Flex Flow Direction
 // - applies to: flex containers
@@ -75,7 +87,7 @@
 
 // Flex shr
 // - applies to: flex itemsink factor
-// <number> 
+// <number>
 .flex-shrink(@shrink: 1) {
   -webkit-flex-shrink: @shrink;
      -moz-flex-shrink: @shrink;
@@ -86,7 +98,7 @@
 // Flex basis
 // - the initial main size of the flex item
 // - applies to: flex itemsnitial main size of the flex item
-// <width> 
+// <width>
 .flex-basis(@width: auto) {
   -webkit-flex-basis: @width;
      -moz-flex-basis: @width;
@@ -96,7 +108,7 @@
 
 // Axis Alignment
 // - applies to: flex containers
-// flex-start | flex-end | center | space-between | space-around 
+// flex-start | flex-end | center | space-between | space-around
 .justify-content(@justify: flex-start) {
   -webkit-justify-content: @justify;
      -moz-justify-content: @justify;
@@ -106,7 +118,7 @@
 
 // Packing Flex Lines
 // - applies to: multi-line flex containers
-// flex-start | flex-end | center | space-between | space-around | stretch 
+// flex-start | flex-end | center | space-between | space-around | stretch
 .align-content(@align: stretch) {
   -webkit-align-content: @align;
      -moz-align-content: @align;
@@ -116,7 +128,7 @@
 
 // Cross-axis Alignment
 // - applies to: flex containers
-// flex-start | flex-end | center | baseline | stretch 
+// flex-start | flex-end | center | baseline | stretch
 .align-items(@align: stretch) {
   -webkit-align-items: @align;
      -moz-align-items: @align;
@@ -126,7 +138,7 @@
 
 // Cross-axis Alignment
 // - applies to: flex items
-// auto | flex-start | flex-end | center | baseline | stretch 
+// auto | flex-start | flex-end | center | baseline | stretch
 .align-self(@align: auto) {
   -webkit-align-self: @align;
      -moz-align-self: @align;
